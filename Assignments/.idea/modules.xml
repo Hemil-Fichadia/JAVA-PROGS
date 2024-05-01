@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Assignments.iml" filepath="$PROJECT_DIR$/Assignments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinarySearch/BinarySearch.iml" filepath="$PROJECT_DIR$/BinarySearch/BinarySearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/First-java-programs/First-java-programs.iml" filepath="$PROJECT_DIR$/First-java-programs/First-java-programs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Loops-And-Conditionals/Loops-And-Conditionals.iml" filepath="$PROJECT_DIR$/Loops-And-Conditionals/Loops-And-Conditionals.iml" />
+    </modules>
+  </component>
+</project>
