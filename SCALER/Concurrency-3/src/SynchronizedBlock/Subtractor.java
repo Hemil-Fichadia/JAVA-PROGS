@@ -1,4 +1,4 @@
-package SharedCount;
+package SynchronizedBlock;
 
 public class Subtractor implements Runnable{
     private Count count;
@@ -8,7 +8,9 @@ public class Subtractor implements Runnable{
     @Override
     public void run() {
         for(int i = 1; i <= 100000; i++){
-            count.value -= i;
+            synchronized(Count.class){ //lock
+                count.value -= i;
+            } //unlock
         }
     }
 }

@@ -1,4 +1,4 @@
-package SharedCount;
+package SynchronizedBlock;
 
 public class Count {
     public int value;

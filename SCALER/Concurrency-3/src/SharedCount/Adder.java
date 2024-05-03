@@ -3,7 +3,7 @@ package SharedCount;
 public class Adder implements Runnable{
     private Count count;
 
-    Adder(Count count){
+    public Adder(Count count){
         this.count = count;
     }
     @Override
