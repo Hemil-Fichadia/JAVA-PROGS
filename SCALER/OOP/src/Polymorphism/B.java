@@ -28,12 +28,13 @@ public class B extends A{
     @Override
     void fun(){
         System.out.println("Hey");
+        System.out.println("Class - B");
     }
 
     public static void main(String[] args){
         A a = new A();
         a.fun(); //<-- This will print Hello
-        A a1 = new B();
-        a1.fun(); //<-- This will print Hey
+        A b1 = new B();
+        b1.fun(); //<-- This will print Hey
     }
 }
