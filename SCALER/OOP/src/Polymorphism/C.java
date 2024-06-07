@@ -18,6 +18,9 @@ public class C extends B{
         so like this (C)a.company = "google" but this will only solve the
         compilation problems it can cause some issues while runtime
         * */
+        A a1 = new C();
+        a1.fun();
+
         A a = new C();
         ((C)a).company = "google"; //This is not a good practice
 

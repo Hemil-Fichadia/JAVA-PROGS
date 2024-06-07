@@ -12,8 +12,8 @@ public class Adder implements Runnable{
     public void run() {
         for(int i = 1; i <= 100000; i++){
             /*Here only count class is synchronized, so it is like any object of Count
-            inside the synchronized block is only synchronized and locked while execution
-            rest of the objects if there, are free to utilise if any thread is performing
+            inside the synchronized block is only synchronized and locked while execution of
+            rest of the objects, if there, are free to utilise if any thread is performing
             operation on it.
             So the synchronized keyword or block is useful when we have identified a single
             share resource that we want to make perform consistently and accurately, we define

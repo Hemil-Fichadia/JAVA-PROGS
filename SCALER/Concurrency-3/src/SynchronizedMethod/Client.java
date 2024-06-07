@@ -33,7 +33,7 @@ public class Client {
         not to an attribute.
 
         So if any API we are using that is to be used inside multithreading environment, then that
-        functionality or API is supposed to provide us thread safe functionality.
+        functionality or API is supposed to provide us for thread safe functionality.
 
         So assume that we are having multiple synchronized methods in a class, now that each of the
         methods are sharing the same attribute or different can be a different point of observation,

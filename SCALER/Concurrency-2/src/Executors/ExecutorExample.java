@@ -9,7 +9,7 @@ public class ExecutorExample {
         /* We assign the number of threads to executor, and it regulates the incoming
         tasks, assigns it to any of the free thread and if none of the threads are free
         then it pushes tasks to a waiting queue and waits for a thread to be released to
-        assign allotted task.
+        assign a task.
         Once we assign a thread count to executor, it manages the task allotment to the available
         threads and if none of them are free to take task then those tasks are pushed to waiting
         queue and as everything is happening, order is not maintained which task will be executed
