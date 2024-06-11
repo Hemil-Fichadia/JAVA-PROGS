@@ -33,9 +33,9 @@ public class SingletonImplementation {
         SingletonClass singletonClass = SingletonClass.getInstance();
         singletonClass.printInfo();
         System.out.println(singletonClass.hashCode());
-        System.out.println(singletonClass.getInstance().hashCode());
+        System.out.println(SingletonClass.getInstance().hashCode());
 
-        if(singletonClass.hashCode() == singletonClass.getInstance().hashCode()){
+        if(singletonClass.hashCode() == SingletonClass.getInstance().hashCode()){
             System.out.println("It is a singleton class");
         }
         /* Pros of Singleton :-
