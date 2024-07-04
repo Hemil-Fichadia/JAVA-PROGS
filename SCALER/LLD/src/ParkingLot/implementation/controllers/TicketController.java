@@ -4,7 +4,6 @@ import ParkingLot.implementation.dtos.IssueTicketRequestDto;
 import ParkingLot.implementation.dtos.IssueTicketResponseDto;
 import ParkingLot.implementation.dtos.ResponseStatus;
 import ParkingLot.implementation.exceptions.GateNotFoundException;
-import ParkingLot.implementation.models.Gate;
 import ParkingLot.implementation.models.Ticket;
 import ParkingLot.implementation.services.TicketService;
 
