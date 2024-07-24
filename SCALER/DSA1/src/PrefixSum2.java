@@ -1,4 +1,5 @@
 import java.util.*;
+
 class PrefixSum2 {
 
     public static int[] productArrayPuzzle(int[] A) {

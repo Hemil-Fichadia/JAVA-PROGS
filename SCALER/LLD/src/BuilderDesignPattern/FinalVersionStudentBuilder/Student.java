@@ -16,7 +16,7 @@ public class Student {
     String phoneNumber;
 
     private Student(){
-
+        
     }
     private Student(StudentBuilder studentBuilder) {
         /* We can only reach here once everything is analyzed and checked inside

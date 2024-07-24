@@ -1,4 +1,5 @@
 import java.util.*;
+
 class PrefixSum1 {
 
     public static int[] prefixSumArrayItself(int[] A) {
